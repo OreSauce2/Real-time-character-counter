@@ -2,19 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 </head>
 
 <body>
-<main>
-    <div class="container">
-        
-    </div>
-</main>
+    <main>
+        <div class="container">
+            <h2>Real-time Character Counter</h2>
+            <textarea name="" id="textarea" class="textarea" placeholder="Please write your text here"
+                maxlength="50"></textarea>
+            <div class="counter-container">
+                <p>
+                    Total Characters:
+                    <span class="totalcounter" id="totalcounter">
+
+                    </span>
+                </p>
+                <p>
+                    Remaining:
+                    <span class="remainingcounter" id="remainingcounter">
+
+                    </span>
+                </p>
+            </div>
+        </div>
+    </main>
 
     <script src="index.js"></script>
 </body>
