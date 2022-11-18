@@ -34,6 +34,7 @@ main {
     font-family: sans-serif;
     padding: 10px;
     border: 2px solid #ccc;
+    outline: none;
 }
 
 .counter-container {
